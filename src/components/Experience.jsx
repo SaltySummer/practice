@@ -1,4 +1,4 @@
-import ExperienceContent from '../components/ExperienceContent'
+import ExperienceContent from './ExperienceContent'
 
 function Experience(){
     return (
