@@ -15,11 +15,11 @@ function Navbar(){
                 <div className="max-w-4xl mx-auto px-6 h-16 flex items-center justify-between">
                     <Name label = {"#top"} name = {"Hynes Gavin Da Goat"}/>
                 <div className="flex gap-6 text-sm text-stone-600">
-                    <Navigation href={"about"} label={"About"}/>
-                    <Navigation href={"skills"} label={"Skills"} />
-                    <Navigation href={"projects"} label={"Projects"} />
-                    <Navigation href={"experience"} label={"Experience"} />
-                    <Navigation href={"contact"} label={"Contact"} />
+                    <Navigation href={"#about"} label={"About"}/>
+                    <Navigation href={"#skills"} label={"Skills"} />
+                    <Navigation href={"#projects"} label={"Projects"} />
+                    <Navigation href={"#experience"} label={"Experience"} />
+                    <Navigation href={"#contact"} label={"Contact"} />
                 </div>
                 </div>
             </nav>
