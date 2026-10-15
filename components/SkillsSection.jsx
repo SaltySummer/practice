@@ -1,3 +1,5 @@
+import SkillsContent from "./SkillsContent";
+
 function SkillsHeader({content}){
     return (
         <>
@@ -16,27 +18,27 @@ function SkillsSection(){
                     <div>
                         <SkillsHeader content={"Languages"}/>
                         <div className="mt-3 flex flex-wrap gap-2">
-                        <span className="rounded-full border border-stone-300 px-3 py-1 text-sm">HTML</span>
-                        <span className="rounded-full border border-stone-300 px-3 py-1 text-sm">CSS</span>
-                        <span className="rounded-full border border-stone-300 px-3 py-1 text-sm">JavaScript</span>
-                        <span className="rounded-full border border-stone-300 px-3 py-1 text-sm">Java</span>
+                            <SkillsContent content={"HTML"}/>
+                            <SkillsContent content={"CSS"}/>
+                            <SkillsContent content={"JavaScript"}/>
+                            <SkillsContent content={"Java"}/>
                         </div>
                     </div>
                     <div>
-                        <SkillsHeader content={"Languages"}/>
+                        <SkillsHeader content={"Frameworks"}/>
                         <div className="mt-3 flex flex-wrap gap-2">
-                        <span className="rounded-full border border-stone-300 px-3 py-1 text-sm">React</span>
-                        <span className="rounded-full border border-stone-300 px-3 py-1 text-sm">Tailwind CSS</span>
-                        <span className="rounded-full border border-stone-300 px-3 py-1 text-sm">Bootstrap</span>
+                            <SkillsContent content={"React"}/>
+                            <SkillsContent content={"Tailwind CSS"}/>
+                            <SkillsContent content={"Springboot"}/>
                         </div>
                     </div>
                     <div>
-                        <SkillsHeader content={"Languages"}/>
+                        <SkillsHeader content={"Tools"}/>
                         <div className="mt-3 flex flex-wrap gap-2">
-                        <span className="rounded-full border border-stone-300 px-3 py-1 text-sm">Git</span>
-                        <span className="rounded-full border border-stone-300 px-3 py-1 text-sm">VS Code</span>
-                        <span className="rounded-full border border-stone-300 px-3 py-1 text-sm">MySQL</span>
-                        <span className="rounded-full border border-stone-300 px-3 py-1 text-sm">Figma</span>
+                            <SkillsContent content={"Git"}/>
+                            <SkillsContent content={"VS Code"}/>
+                            <SkillsContent content={"MySQL"}/>
+                            <SkillsContent content={"Figma"}/>
                         </div>
                     </div>
                 </div>
