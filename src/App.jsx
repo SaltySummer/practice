@@ -1,47 +1,18 @@
 import { useState } from 'react'
 
 import Navbar from '../components/NavBar'
+import Hero from '../components/Hero'
+import AboutSection from '../components/AboutSection'
 import './index.css'
 
 function App() {
   return (
     <>
-      <head>
-        <title>Portfolio</title>
-      </head>
-
-      <body>
         <Navbar />
+        <Hero />
         
         <main>
-
-          <section id="about" className="max-w-4xl mx-auto px-6 py-16 border-t border-stone-200 scroll-mt-16">
-            <h2 className="text-2xl font-semibold tracking-tight">About</h2>
-            <p className="mt-2 text-stone-600">A little about who I am.</p>
-            <p className="mt-6 max-w-2xl leading-relaxed text-stone-700">
-              I grew up in Talisay and moved to Cebu City for college. I picked IT because I
-              wanted to build things people actually open. So far my favorite part is the moment
-              something finally runs.
-            </p>
-            <dl className="mt-8 grid grid-cols-2 gap-6 sm:grid-cols-4">
-              <div>
-                <dt className="text-sm text-stone-500">Course</dt>
-                <dd className="mt-1 font-medium">BS Information Technology</dd>
-              </div>
-              <div>
-                <dt className="text-sm text-stone-500">Year level</dt>
-                <dd className="mt-1 font-medium">Third year</dd>
-              </div>
-              <div>
-                <dt className="text-sm text-stone-500">School</dt>
-                <dd className="mt-1 font-medium">CIT-U</dd>
-              </div>
-              <div>
-                <dt className="text-sm text-stone-500">Based in</dt>
-                <dd className="mt-1 font-medium">Cebu City</dd>
-              </div>
-            </dl>
-          </section>
+          <AboutSection />
 
           <section id="skills" className="max-w-4xl mx-auto px-6 py-16 border-t border-stone-200 scroll-mt-16">
             <h2 className="text-2xl font-semibold tracking-tight">Skills</h2>
@@ -162,8 +133,6 @@ function App() {
             © 2026 Juan dela Cruz. Built with React and Tailwind CSS for CSIT340.
           </div>
         </footer>
-
-      </body>
     </>
   )
 }
