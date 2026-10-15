@@ -1,0 +1,12 @@
+function ContactContent({label, href, content}){
+    return (
+        <>
+            <li>
+                <span className="inline-block w-24 text-sm text-stone-500">{label}</span>
+                <a href={href} className="font-medium hover:underline">{content}</a>
+            </li>
+        </>
+    )
+}
+
+export default ContactContent;

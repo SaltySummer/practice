@@ -6,6 +6,7 @@ import AboutSection from './components/AboutSection'
 import SkillSection from './components/SkillsSection'
 import ProjectsSection from './components/Projects'
 import ExperienceSection from './components/Experience'
+import ContactSection from './components/ContactSection'
 import './index.css'
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
           <SkillSection />
           <ProjectsSection />
           <ExperienceSection />
+          <ContactSection />
         </main>
 
     </>
